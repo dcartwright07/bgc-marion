@@ -1,0 +1,73 @@
+/*
+Theme Name: Charity NGO Child
+Theme URI: http://cmsmasters.net/charity-ngo-child/
+Author: cmsmasters
+Author URI: http://cmsmasters.net/
+Description: Charity NGO Child Theme
+Template: charity-ngo
+Version: 1.0.0
+License:
+License URI:
+Text Domain: charity-ngo-child
+Tags: one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+body {
+	font-size: 16px;
+}
+.header_mid_inner .logo .logo_retina {
+  max-width: 235px;
+}
+.heading-border {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.cmsmasters_heading_divider_long .cmsmasters_heading_divider {
+  width: 75% !important;
+}
+.headline_outer .headline_inner .headline_text .entry-title {
+  margin-top: 100px;
+}
+#page.cmsmasters_heading_under_header #middle .headline .headline_outer {
+  padding-top: 0;
+}
+.cmsmasters_row.cmsmasters_row_top_default.cmsmasters_row_bot_default {
+  z-index: 2;
+}
+#cmsmasters_row_1o2uo2lj5 .cmsmasters_row_outer_parent {
+  padding-bottom: 0;
+}
+.white-text {
+  color: #ffffff;
+}
+.white-logo-text-resize {
+  width: 190px;
+}
+.text-center {
+  text-align: center;
+}
+.featured-events, .featured-events a {
+	font-size: 20px;
+}
+.featured-events h3 {
+	font-size: 30px;
+	line-height: 35px;
+}
+.featured-events p {
+  line-height: 30px;
+}
+.cmsmasters_button, .wpcf7-submit {
+  padding: 5px 40px;
+}
+.home-h2 h2 {
+	font-size: 45px;
+}
+.button_wrap {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1025px) {
+  .navigation > li.current-menu-item:before, .navigation > li.current-menu-ancestor:before, .navigation > li:hover:before {
+    height: 5px;
+  }
+}
