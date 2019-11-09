@@ -63,7 +63,20 @@ body {
 	font-size: 45px;
 }
 .button_wrap {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+.cmsmasters_single_event .cmsmasters_single_event_header_right .tribe-events-cal-links {
+	display: flex;
+	margin-left: 150px;
+}
+.cmsmasters_single_event .cmsmasters_single_event_header_right a.tribe-events-button {
+	background: #ddd;
+	margin: 20px 0px 5px 10px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	align-items: flex-end;
+	flex-basis: 200px;
+	text-align: center;
 }
 
 @media only screen and (min-width: 1025px) {
