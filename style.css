@@ -84,3 +84,8 @@ body {
     height: 5px;
   }
 }
+
+/* Update Modern Calendar Plugin */
+ul > li::before { content: none; }
+.mec-calendar.mec-calendar-daily .mec-calendar-a-month h4 { text-align: center; }
+.mec-calendar .mec-calendar-header h2 { text-align: center; }
